@@ -1,10 +1,18 @@
 import './App.css';
+import Display from './Components/Display';
+import Btn from './Components/Btn';
 
 function App() {
   return (
     <>
-      <h1>Stopwatch</h1>
-
+      <div className='main-section'>
+        <div className="clock-holder">
+          <div className="stopwatch">
+            <Display />
+            <Btn />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

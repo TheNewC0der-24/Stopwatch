@@ -2,7 +2,13 @@ import React from 'react';
 
 const Btn = () => {
     return (
-        <div>Btn</div>
+        <div>
+            <button
+                className='stopwatch-btn stopwatch-btn-gre'
+            >
+                Start
+            </button>
+        </div>
     )
 }
 

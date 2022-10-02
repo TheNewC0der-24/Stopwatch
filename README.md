@@ -6,3 +6,11 @@ A stopwatch is a timepiece designed to measure the amount of time that elapses b
 ## Built with 
 | React.JS | CSS |
 | --- | --- |
+
+## Preview
+![image](https://github.com/TheNewC0der-24/Stopwatch/blob/master/Preview.png)
+
+## Link
+```
+https://stopwatch-react-js.netlify.app/
+```

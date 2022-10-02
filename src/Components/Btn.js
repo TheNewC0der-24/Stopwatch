@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Btn = () => {
+const Btn = (props) => {
     return (
         <div>
             <button

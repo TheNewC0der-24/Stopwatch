@@ -7,13 +7,17 @@ function App() {
 
   const [time, setTime] = useState({ ms: 0, s: 0, m: 0, h: 0 });
 
+  const start = () => {
+
+  }
+
   return (
     <>
       <div className='main-section'>
         <div className="clock-holder">
           <div className="stopwatch">
             <Display time={time} />
-            <Btn />
+            <Btn start={start} />
           </div>
         </div>
       </div>

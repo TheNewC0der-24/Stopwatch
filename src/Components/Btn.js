@@ -5,6 +5,7 @@ const Btn = () => {
         <div>
             <button
                 className='stopwatch-btn stopwatch-btn-gre'
+                onClick={props.start}
             >
                 Start
             </button>

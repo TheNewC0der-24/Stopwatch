@@ -48,6 +48,8 @@ function App() {
     setTime({ ms: 0, s: 0, m: 0, h: 0 });
   }
 
+  const resume = () => start();
+
 
   return (
     <>
@@ -55,7 +57,7 @@ function App() {
         <div className="clock-holder">
           <div className="stopwatch">
             <Display time={time} />
-            <Btn status={status} reset={reset} stop={stop} start={start} />
+            <Btn status={status} resume={resume} reset={reset} stop={stop} start={start} />
           </div>
         </div>
       </div>

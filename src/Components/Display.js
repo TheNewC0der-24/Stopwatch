@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Display = (props) => {
+
+    useEffect(() => {
+        document.title = `Stopwatch : ${(props.time.h >= 10) ? props.time.h : "0" + props.time.h}:${(props.time.m >= 10) ? props.time.m : "0" + props.time.m}:${(props.time.s >= 10) ? props.time.s : "0" + props.time.s}:${(props.time.ms >= 10) ? props.time.ms : "0" + props.time.ms}`;
+    });
+
     return (
         <div>
             <span>{(props.time.h >= 10) ? props.time.h : "0" + props.time.h}</span>&nbsp;:&nbsp;
